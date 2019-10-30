@@ -1,6 +1,7 @@
 import sys
 import pygame
 
+
 def run_game():
         #Initialize game and create a screen object.
         pygame.init()
@@ -23,6 +24,5 @@ def run_game():
 
             #Make the most recently drawn screen visible. 
             pygame.display.flip()
-            
 
 run_game()
